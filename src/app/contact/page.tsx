@@ -4,7 +4,7 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 import { Button } from "@/components/ui/moving-border";
 import React, { FormEvent, useState } from "react";
 
-function page() {
+function Page() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
@@ -60,4 +60,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
